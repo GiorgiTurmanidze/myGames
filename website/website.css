@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+}
+.chooseIt {
+    position: relative;
+    margin: auto;
+    top: 150px;
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.chooseIt img {
+    cursor: pointer;
+}

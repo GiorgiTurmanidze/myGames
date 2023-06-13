@@ -1,0 +1,113 @@
+#ttt {
+    display: none;
+    text-align: center;
+	position: relative;
+	top: 150px;
+    margin: auto;
+}
+
+.choose-player {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+#player1 {
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	background-color:#fc8d83;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:18px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+	margin-right: 10px;
+}
+#player1:hover {
+	background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+	background-color:#e4685d;
+}
+#player1:active {
+    position: relative;
+	top: 1px;
+}
+
+#player2 {
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Verdana;
+	font-size:18px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+#player2:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+
+#player2:active {
+    position: relative;
+	top: 1px;
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: auto;
+	margin-bottom: 10px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid cadetblue;
+    font-size: 90px;
+}
+
+.status {
+    font-size: 60px;
+}
+
+.restart {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:10px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+	margin-right: 10px;
+}
+.restart:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.restart:active {
+	position:relative;
+	top:1px;
+}
